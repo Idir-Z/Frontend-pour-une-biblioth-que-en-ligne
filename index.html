@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+   
+    <style>
+        .card{
+            position: relative;
+            background-color: aliceblue;
+            height: 800px;
+            overflow: hidden;
+        }
+        .card-img-top {
+            height: 500px;
+            object-fit: cover;
+            padding-bottom: 2rem;
+        }
+        .card-body {
+            
+            position: absolute;
+            bottom: 0;
+        }
+        footer a {
+            text-decoration: none;
+            margin: 3px;
+        }
+    </style>
+
+</head>
+<body >
+    <nav class="navbar navbar-expand-sm " style="margin-top:-10px ;">
+        <div class="container-fluid p-1 d-flex justify-content-around" style="background-color: #1a337d;">
+            <a href="index.html" class="nav-item btn btn-outline-light rounded-pill">Accueil</a>
+        <ul class="navbar-nav ">
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" href="authors.html"><i class="fa fa-home"></i> Auteurs</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" href="books.html">Livres</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" href="users.html">Utilisateurs</a>
+            </li>
+          </ul>
+          <div class="nav-item"> <a class="nav-link text-white" href="account.html">Mon compte <span > <img class="img img-rounded" src="images/user.png" alt="My Account" style="height: 60px;"></span></a> </div>
+        </div>
+    </nav>
+
+    <header class="masthead  text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            
+            <img class="my-5" src="images/Barnes-Noble-Logo.png" alt="Barnes & Noble" style="max-width:70%; width: 500px;" />
+            
+            <h1 class="display-3 text-primary text-uppercase mb-2"> <span class="" style="text-decoration: underline;font-weight: 500;">Free</span>  Book Exchange</h1>
+            
+            <p class="display-6 text-primary mb-0">Read for free, give away
+                books to others and receive in return rare ones</p>
+        </div>
+
+    </header>
+    
+    <section id="Livres">
+    <div class="d-flex flex-wrap justify-content-center my-5">
+        <div class="card p-2 m-3 " style="max-width: 60%;width: 300px;">
+            <a href="#"><img class="card-img-top" src="images/cir.jpg" alt="the catcher in the rye"></a>
+            <div class="card-body h5">
+                <a href="#" class=""><h4 class="card-title mt-3">The catcher in the rye</h4></a>
+            <p>
+                <h6 class="text-secondary">details two days in the life of 16-year-old Holden Caulfield after he has been expelled from prep school</h6>
+
+            </p>
+            <p>offered by <span><a href="#">userrr</a></span></p>
+            Author <a href="#" class="link-opacity-75"> J.D SALINGER</a>
+            <div class="d-flex justify-content-around pt-3">
+                
+            <button class="btn btn-primary"> View </button>
+            <button class="btn btn-warning"> Mark <span><img class="icon" src="images/bookmark-line.svg" alt="mark"></span> </button>
+            </div> 
+            </div>
+        </div>
+        <div class="card p-2 m-3 " style="max-width: 60%;width: 300px;">
+            <a href="#"><img class="card-img-top" src="images/aLittleLife.jpg" alt="A little life"></a>
+            <div class="card-body h5">
+                <a href="#" class=""><h4 class="card-title mt-3">A little life</h4></a>
+            <p>
+                <h6 class="text-secondary">100% Traumatizing,sad and down right blowing events, not recommended for the weak</h6>
+
+            </p>
+            <p>offered by <span><a href="#">userrr</a></span></p>
+            Author <a href="#" class="link-opacity-75"> Hanya yanagihara</a>
+            <div class="d-flex justify-content-around pt-3">
+                
+            <button class="btn btn-primary"> View </button>
+            <button class="btn btn-warning"> Mark <span><img class="icon" src="images/bookmark-line.svg" alt="mark"></span> </button>
+            </div> 
+            </div>
+        </div>
+
+        <div class="card p-2 m-3" style="max-width: 60%;width: 300px;">
+            <a href="#"><img class="card-img-top" src="images/punk75.jpg" alt="Punk 75"></a>
+            <div class="card-body h5 mt-3">
+                <a href="#" class=""><h4 class="card-title mt-auto">Punk 75</h4></a>
+            <p>
+                <h6 class="text-secondary">Story of a bunch of teens doing what they aren't supposed to</h6>
+
+            </p>
+            <p>offered by <span><a href="#">userrr</a></span></p>
+            <p> Author <a href="#" class="link-opacity-75"> Penelope Douglas</a></p>
+            <div class="d-flex justify-content-around ">
+                
+            <button class="btn btn-primary"> View </button>
+            <button class="btn btn-warning"> Mark <span><img class="icon" src="images/bookmark-line.svg" alt="mark"></span> </button>
+            </div> 
+            </div>
+        </div>
+
+        <div class="card p-2 m-3 " style="max-width: 60%;width: 300px;">
+            <a href="#"><img class="card-img-top" src="images/theStranger.jpg" alt="the catcher in the rye"></a>
+            <div class="card-body h5">
+                <a href="#" class=""><h4 class="card-title mt-3">The Stranger</h4></a>
+            <p>
+                <h6 class="text-secondary">The story of a man who doesn't know exactly when his mom died, was it yesterday? he knows not</h6>
+
+            </p>
+            <p>offered by <span><a href="#">userrr</a></span></p>
+            Author <a href="#" class="link-opacity-75"> Albert Camus</a>
+            <div class="d-flex justify-content-around pt-3">
+                
+            <button class="btn btn-primary"> View </button>
+            <button class="btn btn-warning"> Mark <span><img class="icon" src="images/bookmark-line.svg" alt="mark"></span> </button>
+            </div> 
+            </div>
+        </div>
+
+        <div class="card p-2 m-3 " style="max-width: 60%;width: 300px;">
+            <a href="#"><img class="card-img-top" src="images/circe.jpg" alt="circe"></a>
+            <div class="card-body h5">
+                <a href="#" class=""><h4 class="card-title mt-3">Circe</h4></a>
+            <p>
+                <h6 class="text-secondary">The story of the nymph godess of sorcery, daughter of the titan helios as she goes through her exile and her encounters with various heroes of antiquity</h6>
+
+            </p>
+            <p>offered by <span><a href="#">userrr</a></span></p>
+            Author <a href="#" class="link-opacity-75">Madeline Miller</a>
+            <div class="d-flex justify-content-around pt-3">
+                
+            <button class="btn btn-primary"> View </button>
+            <button class="btn btn-warning"> Mark <span><img class="icon" src="images/bookmark-line.svg" alt="mark"></span> </button>
+            </div> 
+            </div>
+        </div>
+
+        <div class="card p-2 m-3 " style="max-width: 60%;width: 300px;">
+            <a href="#"><img class="card-img-top" src="images/shamsAlMaarif.jpg" alt="the catcher in the rye"></a>
+            <div class="card-body h5">
+                <a href="#" class=""><h4 class="card-title mt-3">Shams Al Maarif AL-koubra</h4></a>
+            <p>
+                <h6 class="text-secondary">Niche recipe book, wasafat ramadhaniya</h6>
+
+            </p>
+            <p>offered by <span><a href="#">userrr</a></span></p>
+            Author <a href="#" class="link-opacity-75"> Ahmad Al buni</a>
+            <div class="d-flex justify-content-around pt-3">
+                
+            <button class="btn btn-primary"> View </button>
+            <button class="btn btn-warning"> Mark <span><img class="icon" src="images/bookmark-line.svg" alt="mark"></span> </button>
+            </div> 
+            </div>
+        </div>
+
+        <div class="card p-2 m-3 " style="max-width: 60%;width: 300px;">
+            <a href="#"><img class="card-img-top" src="images/cir.jpg" alt="the catcher in the rye"></a>
+            <div class="card-body h5">
+                <a href="#" class=""><h4 class="card-title mt-3">The catcher in the rye</h4></a>
+            <p>
+                <h6 class="text-secondary">details two days in the life of 16-year-old Holden Caulfield after he has been expelled from prep school</h6>
+
+            </p>
+            <p>offered by <span><a href="#">userrr</a></span></p>
+            Author <a href="#" class="link-opacity-75"> J.D SALINGER</a>
+            <div class="d-flex justify-content-around pt-3">
+                
+            <button class="btn btn-primary"> View </button>
+            <button class="btn btn-warning"> Mark <span><img class="icon" src="images/bookmark-line.svg" alt="mark"></span> </button>
+            </div> 
+            </div>
+        </div>
+
+        <div class="card p-2 m-3 " style="max-width: 60%;width: 300px;">
+            <a href="#"><img class="card-img-top" src="images/cir.jpg" alt="the catcher in the rye"></a>
+            <div class="card-body h5">
+                <a href="#" class=""><h4 class="card-title mt-3">The catcher in the rye</h4></a>
+            <p>
+                <h6 class="text-secondary">details two days in the life of 16-year-old Holden Caulfield after he has been expelled from prep school</h6>
+
+            </p>
+            <p>offered by <span><a href="#">userrr</a></span></p>
+            Author <a href="#" class="link-opacity-75"> J.D SALINGER</a>
+            <div class="d-flex justify-content-around pt-3">
+                
+            <button class="btn btn-primary"> View </button>
+            <button class="btn btn-warning"> Mark <span><img class="icon" src="images/bookmark-line.svg" alt="mark"></span> </button>
+            </div> 
+            </div>
+        </div>
+
+        
+        
+       
+        </div>
+
+        
+           
+          
+        
+            
+         
+    </div>
+</section>
+    
+    
+
+    <footer class="text-white " style="background-color: #1a337d;">
+        <div class="d-flex justify-content-around">
+            
+            <div class="d-flex flex-column">
+                <a href="#Livres">Livres</a>
+                <a href="authors.html">authors</a>
+                <a href="users.html">Users</a>
+            </div>
+            <div class="d-flex flex-column">
+                <a href="https://instagram.com">Instagram</a>
+                <a href="https://twitter.com">Twitter</a>
+                <a href="https://yahoo.com">Yahoo</a>
+            </div>
+
+
+
+        </div>
+      </footer>  
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

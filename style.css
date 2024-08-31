@@ -1,0 +1,36 @@
+img {
+    transition: transform .4s;
+    
+}
+a img:hover {
+    transform: translateY(-5px);
+}
+.icon {
+    width: auto;
+    height: 1.6rem;
+}
+.myCard {
+    position: relative;
+    padding: .6rem;
+    background-color: rgba(63, 96, 35, 0.727);
+    border-radius: 7px;
+}
+.favIcon {
+    width: 1rem;
+    
+}
+.favButton {
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    padding: auto;
+    align-self: center;
+    justify-self: center;
+    border-radius: 50%;
+    top: .75rem;
+    background-color: rgba(221, 140, 136, 0.556);
+    border: solid 2px pink;
+}
+.grid {
+    display: grid;
+}
